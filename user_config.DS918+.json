@@ -3,11 +3,10 @@
     "vid": "0x46f4",
     "pid": "0x0001",
     "sn": "17A0PDN123456",
-    "mac1": "001132123456"
-  },
-  "synoinfo": {
-    "supportsystemperature": "no",
-    "supportsystempwarning": "no"
-  },
+    "netif_num":"2", #2个网口，如果是单网口改为1
+    "mac1": "0011XXXX", #mac地址1
+    "mac2": "0011XXXX", #mac地址2，如果是单网口删除这行
+},
+  "synoinfo": {},
   "ramdisk_copy": {}
 }
